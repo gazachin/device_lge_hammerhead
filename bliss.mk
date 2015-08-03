@@ -3,6 +3,9 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOTANIMATION_HALF_RES := false
 
+#Bliss Audio Mod
+BLISS_AUDIO_MOD := viper
+
 # Inherit some common bliss stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 $(call inherit-product, vendor/bliss/config/common_full.mk)
